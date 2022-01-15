@@ -1,0 +1,1431 @@
+@font-face {
+    font-family: caroni;
+    src: url(Police/caroni/Caroni-Regular.otf);
+}
+
+@font-face {
+    font-family: gaegu;
+    src: url(Police/gaegu/Gaegu-Regular.ttf);
+    src: url(Police/gaegu/Gaegu-Light.ttf);
+    src: url(Police/gaegu/Gaegu-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+ }
+
+
+/* -------------------------- PAGE INDEX -------------------------- */
+
+header {
+}
+
+nav {
+	display: flex;
+	flex-direction: column-reverse;
+	background-color: white;
+	border: 4px #ef6d67 solid;
+	width: 82%;
+	padding: 1%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 12%;
+	border-radius: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: flex;
+	width: 1200px;
+	justify-content: space-around;
+	opacity: ;
+	margin: 0 0 20px -60px;
+	margin-top: 15px;
+	font-size: 2.3em;
+}
+
+nav a {
+	color: #ef6d67;
+	font-family: caroni;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	text-decoration: underline;
+}
+
+h1 {
+	border-style: dashed;
+	border-width: 5px;
+	border-color: white;
+	border-radius: 20px;
+	text-align: center;
+	font-family: gaegu;
+	font-size: 3.7em;
+	color: white;
+	width: 450px;
+	margin : 200px 0 0 480px;
+}
+
+h2{
+	color: #ef6d67;
+	font-size: 3.5em;
+}
+
+h3{
+	color: white;
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 6px;
+}
+
+h4{
+	color: white;
+	font-size: 1.6em;
+	margin-top: -20px;
+}
+
+section {
+	width: 80%;
+	text-align: center; 
+	background-color: white;
+	border: dotted 2px #4f4d4d;
+	padding: 0 1%;
+	margin: 40px 0 0 120px;
+	border-radius: 20px;
+	color: grey;
+}
+
+body {
+	font-family: caroni;
+}
+
+p {
+	font-size: 1.6em;
+	color: #4f4d4d;
+	width: 90%;
+	margin-left: 50px;
+}
+
+#logo {
+	position: absolute;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#sticky_menu {
+	position: fixed;
+    right: 20px;
+    top: 60px;
+    border: solid #ef6d67 4px;
+    border-radius: 80px;
+    width: 4%;
+}
+
+#sticky_menu:hover {
+    border: solid #41a2b7 4px;
+    border-radius: 80px;
+    width: 4%;
+}
+
+#back {
+	background: url('pics/header.jpg') no-repeat center;
+	height: 607px;
+}
+
+#avion
+{
+	background-color: #ef6d67;
+	text-align: left;
+	margin:auto;
+	width: 14%;
+	height: 28%;
+	opacity: 0.9;
+}
+
+hr {
+	margin-left: 100px;
+}
+
+
+/*DEBUT SECTION INTRO*/
+#section_intro {
+	margin-top: 35px;
+	margin-bottom: -5px;
+	border:none;
+	text-align: left;
+	margin-left: 20px;
+	width: 100%;
+}
+
+#table_title {
+
+	font-size: 2.2em;
+	color: #4f4d4d;
+	font-weight: bold;
+}
+
+#table_title2 {
+
+	font-size: 1.7em;
+	color: #4f4d4d;
+	font-weight: bold;
+}
+
+#table_text {
+
+	font-size: 1.2em;
+	color: #4f4d4d;
+}
+/*FIN SECTION INTRO*/
+
+
+/*DEBUT CTA RESERVEZ*/
+#CTA_reservez {
+	width: 200px;
+	height: 50px;
+	background-color: #ef6d67;
+	border-radius: 10px;
+	font-size: 2em;
+	margin: auto;
+	padding-top: 5px;
+}
+
+#CTA_reservez a {
+	text-decoration: none;
+	color: white;
+}
+
+#CTA_reservez a:hover {
+	color: #ef6d67;
+	background: white;
+	padding: 8.5px 45px 12px 45px;
+	border: solid 3px #ef6d67;
+	border-radius: 10px;
+	cursor: zoom-in;
+}
+/*FIN CTA RESERVEZ*/
+
+
+
+/* DEBUT MOSAIQUE */
+#mosaique
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 30px;
+}
+
+#Pays1
+{
+	width: 32.5%;
+	height: 400px;
+	background: url('pics/Thailande.png') no-repeat;
+}
+
+#Pays2
+{
+	width: 32.5%;
+	height: 400px;
+	background: url('pics/Israel.png') no-repeat;
+}
+
+
+#Pays3
+{
+	width: 32.5%;
+	height: 400px;
+	background: url('pics/USA.png') no-repeat;
+}
+
+
+#Ville1
+{
+	width: 32.5%;
+	height: 400px;
+	margin-top: 10px;
+	background: url('pics/NY.png') no-repeat;
+}
+
+#Ville2
+{
+	width: 32.5%;
+	height: 400px;
+	margin-top: 10px;
+	background: url('pics/Perth.png') no-repeat;
+}
+
+#Ville3
+{
+	width: 32.5%;
+	height: 400px;
+	margin-top: 10px;
+	background: url('pics/BKK.png') no-repeat;
+}
+
+#Ville3 p
+{
+	text-align: center;
+	padding-bottom: 200px;
+}
+/* FIN MOSAIQUE */
+
+/* DEBUT CTA DECOUVRIR DE LA MOSAIQUE */
+button
+{
+	width: 50%;
+	height: 50%;
+	color: #ef6d67;
+	border: 3px #ef6d67 solid;
+	border-radius: 10px;
+	background-color: white;
+	font-family: "caroni";
+	font-size: 1.7em;
+	margin-top: 200px;
+}
+
+button a
+{
+	color: #ef6d67;
+	text-decoration: none; 
+}
+
+button a:hover
+{
+	cursor: zoom-in;
+	background: #ef6d67;
+	padding: 2px 38px 2px 38px;
+	border: solid 3px white;
+	border-radius: 10px;
+	color: white;
+	margin: 0 -10px 0 -10px;
+	transform: scale(80,5);
+}
+/* FIN CTA DECOUVRIR DE LA MOSAIQUE */
+
+
+
+
+/* DEBUT GOOGLE MAPS IMAGE */
+#maps {
+	width: 100%;
+	margin-bottom: 20px;
+	border: #ef6d67 2px solid;
+	border-radius: 10px;
+}
+
+#maps:hover {
+	border: #ef6d67 6px solid;
+	border-radius: 10px;
+}
+/* FIN GOOGLE MAPS IMAGE */
+
+
+#haut {
+	position: relative;
+	background-color: rgba(102, 102, 102, 0.6);
+	height: 20%;
+}
+
+#fond_after_intro
+{
+	background: url(transition.jpg) fixed no-repeat;
+	background-size: cover;
+	margin-right: cover;
+	width: 100%;
+	min-width: 50%;
+}
+
+#img_fond
+{
+	background: url(pics/sunset.jpeg) fixed no-repeat;
+	width: 82%;
+	min-width: 50%;
+	margin: auto;
+}
+
+footer {
+	background-color: #ef6d67;
+	font-size: 2em;
+	justify-content: space-around;
+	margin-top: 20px;
+	height: 200px;
+	list-style-type: none;
+	padding-top: 40px;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+footer ul {
+	display: flex;
+	text-decoration: none;
+}
+
+footer p {
+	font-size: 1em;
+}
+
+#liste_footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+#footer_text {
+	color: white;
+}
+
+#contact {
+	color: white;
+	padding-left: 80px;
+	padding-top: -800px;
+}
+
+#insta {
+	margin-top: 7px;
+}
+
+#last_pic {
+	width: 15%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+
+/* DEBUT PLANE */
+#eiffel {
+	margin-left: 120px;
+	margin-top: 10px;
+
+}
+
+#beach {
+	float: right;
+	margin-right: 120px;
+	margin-top: 30px;
+}
+
+#plane {
+    width: 120px;
+    height: 120px;
+    padding-bottom: 47px;
+    position: relative;
+    animation-name: plane_moving;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes plane_moving {
+    0%   {background:; left:30px; top:0px;}
+    100% {background:; left:800px; top:62px;}
+}
+/* FIN PLANE */
+
+
+/* DEBUT CAROUSEL */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  margin-left: -250px;
+  margin-right: 250px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ef6d67;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+#caption_carousel {
+	color: #00a1b7;
+	font-weight: bold;
+	font-family: gaegu;
+	margin-bottom: -115px;
+	font-size: 1.6em;
+}
+
+#sloggan {
+	color: #ef6d67;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+#customer {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/* FIN CAROUSEL */
+
+
+/* -------------------------- FIN PAGE INDEX -------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- DEBUT SPECIFICITES DE LA PAGE OFFRES -------------------------- */
+
+/* DEBUT SECTION VIDEO + INTRO */
+
+#hotels_video {
+	margin-left: 0px;
+	border: none;
+}
+
+#hotels_section_intro h2 {
+	color: white;
+	font-size: 4.4em;
+}
+
+#hotels_section_intro div {
+
+}
+
+#hotels_section_intro td {
+	color: white;
+	font-size: 2.1em;
+
+}
+
+#hotels_section_intro ul {
+	list-style-type: none;
+}
+
+#hotels_section_intro a {
+	text-decoration: none;
+	color: white;
+}
+
+#hotels_section_intro a:hover {
+	text-decoration: underline;
+}
+
+#hotels_pizza {
+	width: 80%;
+}
+
+#hotels_section_intro {
+	border: none;
+	background-color:#ee5d61;
+	width: 100%;
+	margin-left: 0;
+	border-radius: 0;
+}
+
+#hotels_tableau2 {
+	margin-top: 50px;
+}
+
+/* FIN SECTION VIDEO + INTRO */
+
+
+
+/* DEBUT SECTION OFFRE 1 et 3 */
+
+#hotels_offre1_et_3 {
+	border: none;
+}
+
+#hotels_offre1_et_3 h2 {
+	font-size: 2em;
+}
+
+#hotels_img_o1_et_o3 {
+	width: 140%;
+	margin-left: -137px;
+}
+
+#style_o1_et_o3 {
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+
+#important {
+	font-weight: bold;
+}
+
+#les_plus_o1_et_o3 {
+	color: #ee5d61;
+}
+
+#hotels_CTA_reservez {
+	width: 160px;
+	height: 50px;
+	background-color: #ee5d61;
+	font-size: 2em;
+	margin-left: 50px;
+	padding-top: 5px;
+	padding-left: 25px;
+}
+
+#hotels_CTA_reservez a {
+	text-decoration: none;
+	color: white;
+}
+
+#hotels_CTA_reservez a:hover {
+	color: #ef6d67;
+	background: white;
+	padding: 5px 22px 5px 22px;
+	margin-left: -25px;
+	border: solid 3px #ee5d61;
+	cursor: zoom-in;
+}
+
+/* FIN SECTION OFFRE 1 ET 3*/
+
+
+
+/* DEBUT SECTION OFFRE 2 ET 4 */
+
+#hotels_offre2 {
+	border: none;
+	background-color: #ee5d61;
+	margin-left: 0;
+	margin-top: 40px;
+	border-radius: 0;
+	width: 100%;
+}
+
+#hotels_offre2 h2 {
+	font-size: 2em;
+	color: black;
+}
+
+#hotels_offre2 p {
+	color: white;
+}
+
+#hotels_img_chill {
+	width: 99%;
+	margin-left: -125px;
+}
+
+#style_o2et4 {
+	padding-right: 150px;
+}
+
+#les_plus_o2et4 {
+	color: black;
+}
+
+#hotels_CTA_reservez2 {
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	font-size: 2em;
+	padding-right: 25px;
+	padding-top: 5px;
+}
+
+#hotels_CTA_reservez2 a {
+	text-decoration: none;
+	color: white;
+}
+
+#hotels_CTA_reservez2 a:hover {
+	color: white;
+	background: #ee5d61;
+	padding: 5px 22px 5px 22px;
+	border: solid 3px white;
+	cursor: zoom-in;
+}
+
+/* FIN SECTION OFFRE 2 */
+
+
+
+/* DEBUT SECTION OFFRE 4 Work */
+
+#hotels_offre4 {
+	border: none;
+	background-color: #41a2b7;
+	margin-left: 0;
+	margin-top: 40px;
+	border-radius: 0;
+	width: 100%;
+}
+
+#hotels_offre4 h2 {
+	font-size: 2em;
+	color: black;
+}
+
+#hotels_offre4 p {
+	color: white;
+}
+
+#hotels_CTA_reservez4 {
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	font-size: 2em;
+	padding-right: 25px;
+	padding-top: 5px;
+	margin-top: -6px;
+}
+
+#hotels_CTA_reservez4 a {
+	text-decoration: none;
+	color: white;
+}
+
+#hotels_CTA_reservez4 a:hover {
+	color: white;
+	background: #41a2b7;
+	padding: 5px 22px 5px 22px;
+	border: solid 3px white;
+	cursor: zoom-in;
+}
+
+#hotels_img_work {
+	width: 99%;
+	margin-left: -125px;
+	margin-top: 16px;
+}
+
+/* FIN SECTION OFFRE 4 Work */
+
+
+/* DEBUT IMAGE TRANSITION 2 */
+#img_fond2
+{
+	background: url(pics/transition2.png) fixed no-repeat;
+	background-size: 100%;
+	min-width: 50%;
+	margin: auto;
+}
+/* FIN IMAGE TRANSITION 2 */
+
+
+/* DEBUT SECTION SUPERCALIFRAGILISTICEXPIALIDOCIOUS */
+
+#hotels_SUPERCALIFRAGILISTICEXPIALIDOCIOUS {
+	border: none;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#hotels_SUPERCALIFRAGILISTICEXPIALIDOCIOUS p {
+	color: black;
+	font-weight: bold;
+	font-size: 1.9em;
+}
+
+#aspect_titre {
+	color: white;
+	background-color: #ef6d67; 
+	font-size: 1.6em;
+}
+
+#aspect_description {
+	margin-top: 2px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	color: white;
+	text-align: left;
+	background-color: #ef6d67; 	
+	list-style-type: square;
+	font-size: 1.4em;	
+}
+
+
+#hotels_cta_profite {
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	font-size: 1.8em;
+	padding: 5px 25px 5px 25px;
+	text-decoration: none;
+	color: white;
+}
+/* FIN SECTION SUPERCALIFRAGILISTICEXPIALIDOCIOUS */
+
+
+/* DEBUT ANIMATION 2 */
+#img_fond2
+{
+	background-size: 100%;
+	min-width: 50%;
+	margin: auto;
+}
+/* FIN ANIMATION 2 */
+
+/* -------------------------- FIN SPECIFICITES DE LA PAGE OFFRES -------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------- DEBUT SPECIFICITES DE LA PAGE ASIE -------------------------- */
+
+#titre_asie {
+font-size: 3em;
+border: none;
+color: #484848;
+}
+
+/* DEBUT SECTION 1 */
+
+#asie_section1 {
+	border: none;
+	font-size: 3em;
+	background-color: #ef6d67;
+	padding-bottom: 40px;
+}
+
+#texte_italic {
+font-size: 1em;
+margin-top: -70px;
+color: white;
+font-style: italic;
+padding-top: 20px;
+}
+
+#img_buddha {
+	border-radius: 20px;
+	border: solid 30px white;
+}
+
+#asie_intro {
+	font-size: 0.6em;
+	color: white;
+}
+
+#liste_asie {
+	color: white;
+	font-size: 0.6em;
+	list-style-type: none;
+}
+
+#liste_asie a {
+	color: white;
+	text-decoration: none;
+}
+
+#liste_asie a:hover {
+	text-decoration: underline;
+	color: #484848;
+}
+
+/* FIN SECTION 1 */
+
+
+
+/* DEBUT BANNIERE */
+#banniere {
+	background: url('pics/header.jpg') fixed no-repeat;
+	height: 607px;
+	width: 82%;
+	margin-left: 102px;
+	border-radius: 10px;
+}
+/* FIN BANNIERE */
+
+
+
+
+
+/* DEBUT SECTION N°2 OFFRES */
+
+#offre_luxe {
+	text-align: center;
+	font-size: 3em;
+}
+
+#img_offres_asie {
+	border-radius: 10px;
+}
+
+
+#aspect_titre_a {
+	color: white;
+	background-color: #ef6d67; 
+	font-size: 1.6em;
+	text-align: center;
+	border-radius: 10px;
+}
+
+#aspect_description_a {
+	margin-top: 2px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	color: white;
+	text-align: left;
+	background-color: #ef6d67; 	
+	list-style-type: square;
+	font-size: 1.4em;	
+	border-radius: 10px;
+
+}
+
+
+#hotels_cta_profite_a {
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	font-size: 1.8em;
+	padding: 5px 25px 5px 25px;
+	text-decoration: none;
+	color: white;
+	margin-left: 90px;
+	border-radius: 10px;
+}
+
+#hotels_cta_profite_a:hover {
+	background-color: #41a2b7;
+}
+
+
+#rech {
+	color: black;
+	margin-top: 40px;
+	padding-top: 20px;
+	text-align:center;
+	font-size: 2.2em;
+}
+
+#barre_rech {
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: #ef6d67;
+	border-radius: 10px;
+}
+
+#block_promo {
+	margin-left: 400px;
+	margin-right: 400px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: black;
+}
+
+
+#recherche {
+	width: 20%;
+	margin-left: 480px;
+	margin-top: 20px;
+}
+
+ label {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#rech_label {
+	margin-left: 460px;
+}
+/* FIN SECTION N°2 OFFRES */
+
+
+/* DEBUT VILLA DU MOIS */
+article h2 {
+	text-align: center;
+	font-size: 3em;
+	color: #484848
+}
+
+article h3 {
+	color: white;
+	font-size: 2.4em;
+	background-color: #ef6d67;
+	width: 50%;
+	border-radius: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article img {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: dashed #ef6d67 6px;
+}
+
+article legend {
+	text-align: center;
+	font-size: 1.4em;
+	margin-bottom: 30px;
+}
+
+article span {
+	color: #ef6d67;
+	font-weight: bold;
+}
+
+#CTA_best_villa{
+	width: 160px;
+	height: 50px;
+	background-color: black;
+	font-size: 1.8em;
+	padding: 5px 25px 5px 25px;
+	text-decoration: none;
+	color: white;
+	margin-left: 45%;
+	border-radius: 10px;
+}
+
+#CTA_best_villa:hover {
+	background-color: #ef6d67;
+}
+/* FIN VILLA DU MOIS */
+
+
+/* DEBUT MONUMENT DU MOIS */
+
+#img_ayut {
+	width: 40%;
+	border: none;
+	border-radius: 10px;
+}
+
+#légende {
+	margin-top: 15px;
+}
+
+#logo_incrusté {
+border: none;
+position: absolute;
+width: 10%;
+margin-left: 950px;
+margin-top: 20px;
+}
+
+#logo_incrusté:hover {
+width: 12%;
+margin-left:900px;
+}
+
+#mosaique_page_Asie {
+	display: flex;
+	justify-content: space-around;
+	width: 82%;
+	margin:auto;
+}
+
+#pic1
+{
+	width: 30%;
+	height: 330px;
+	border-radius: 20px;
+	background: url('pics/ayut2.png') no-repeat;
+	background-size: cover;
+	border: #ef6d67 3px solid;
+}
+
+#pic2
+{
+	width: 30%;
+	height: 330px;
+	border-radius: 20px;
+	background: url('pics/ayut3.jpeg') no-repeat;
+	background-size: cover;
+	border: #ef6d67 3px solid;
+}
+
+#pic3
+{
+	width: 30%;
+	height: 330px;
+	border-radius: 20px;
+	background: url('pics/ayut4.jpeg') no-repeat;
+	background-size: cover;
+	border: #ef6d67 3px solid;
+}
+
+#vacs_t {
+	font-size: 2.8em;
+	text-align: center;
+	margin-right: 10px;
+}
+
+#je_cours {
+	width: 60%;
+	border: none;
+	border-radius: 20px;
+}
+
+#holidays {
+	display: flex;
+	flex-direction: row;
+	height: 400px;
+	margin: 100px 400px 100px 290px;
+	width: 600px;
+}
+
+#fin_article {
+	border: none;
+	margin-top: -80px;
+	width: %;
+}
+
+#img_fond_fin_article {
+	background: url('pics/fin.jpeg') no-repeat fixed center;
+	height: 307px;
+	background-size: cover;
+}
+
+#merci {
+	font-size: 1.9em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* FIN MONUMENT DU MOIS */
+
+
+/* DEBUT INSCRIPTION NL */
+#fond_trumpet {
+background-color: #ed4a5a; 
+}
+
+#G_form_nl {
+display: flex;
+}
+
+#img_fond3
+{
+	width: 25%;
+	position: relative;
+    animation-name: man_moving;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes man_moving {
+    0%  {background:; left:-200px; top:0px;}
+    25% {background:; left:800px; top:0px;}
+    50% {background:; left:500px; top:0px;}
+    100% {background:; left:1300px; top:0px;}
+}
+
+#desc_nl {
+	margin-left: 80px;
+	font-size: 2em;
+}
+
+#NL {
+	width: 5%;
+	position: absolute;
+	margin-top: -80px;
+}
+
+form {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+form p {
+	color: #ed4a5a;
+	margin-left: 0;
+	font-size: 1.8em;
+}
+
+:invalid
+{
+	border-color: #ed4a5a;
+}
+
+#pseudo {
+	border-radius: 20px;
+	border: #ef6d67 solid 4px;
+	height: 30px;
+	font-size: 1.2em;
+	padding-left: 30px;
+}
+
+#mdp {
+border-radius: 20px;
+	border: #ef6d67 solid 4px;
+	height: 30px;
+	font-size: 1.2em;
+	padding-left: 30px;
+}
+
+#age {
+	border-radius: 20px;
+	border: #ef6d67 solid 4px;
+	height: 30px;
+	font-size: 1.2em;
+	padding-left: 30px;
+}
+
+#daate {
+	border-radius: 20px;
+	border: #ef6d67 solid 4px;
+	height: 30px;
+	font-size: 1.2em;
+	padding-left: 60px;
+}
+
+#pais {
+	border-radius: 40px;
+	border: #ef6d67 solid 4px;
+	height: 30px;
+	font-size: 1.2em;
+}
+
+#pref {
+	border-radius: 40px;
+	height: 30px;
+	font-size: 1.2em;
+}
+
+#asia {
+	background-color: #ef6d67;
+	width: 100px;
+}
+
+
+/* FIN INSCRIPTION NL */
+
+
+/* -------------------------- FIN SPECIFICITES DE LA PAGE ASIE -------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------- DEBUT SPECIFICITES DE LA PAGE 404 -------------------------- */
+
+#p404 {
+	background: #ed535d;
+	border:none;
+	border-radius: ;
+	width: 100%;
+	margin-left: 0px;
+	height: 600px;
+}
+
+#p404_texte {
+
+	color: white;
+	font-size: 10em;
+	position: absolute;
+	margin-top: 1px;
+	margin-left: 80px;
+}
+
+#img404 {
+	height: 500px;
+	margin-top: 20px;
+}
+
+#p404_texte2 {
+	font-size: 2em;
+	color: white;
+	margin-top: -15px;
+}
+
+
+
+/* -------------------------- FIN SPECIFICITES DE LA PAGE 404 -------------------------- */
+
+
+
+
+
+
+
+
+/* -------------------------- DEBUT SPECIFICITES DE LA PAGE 404 B ------------------------- */
+
+#p404b {
+	background: #ee5d61;
+	border:none ;
+	border-radius: ;
+	width: 100%;
+	margin-left: 0px;
+	height: 600px;
+}
+
+#p404_texteb {
+
+	color: white;
+	font-size: 15em;
+	position: absolute;
+	margin-top: 190px;
+	margin-left: -300px;
+}
+
+#img404b {
+	height: 500px;
+	margin-top: 20px;
+}
+
+#p404_texte2b {
+	font-size: 2em;
+	color: white;
+	margin-top: -15px;
+}
+
+
+/* -------------------------- FIN SPECIFICITES DE LA PAGE 404 B -------------------------- */
+
+
+
+
+
+
+
+/* -------------------------- DEBUT SPECIFICITES DE LA PAGE 404 C ------------------------- */
+
+
+#p404c {
+	background-color: #ee5d61;
+	border:none;
+	width: 100%;
+	margin-left: 0px;
+	height: 600px;
+	margin-top: -105px;
+}
+
+#p404_textec {
+
+	color: white;
+	font-size: 2em;
+	margin-left: -300px;
+	margin-top: -100px;
+}
+
+#p404_c {
+	margin-left: -300px;
+	padding-top: 120px;
+	color: white;
+	font-size: 9em;
+}
+
+#img404c {
+	margin-top: -320px;
+	margin-left: -150px;
+	position: absolute;
+}
+
+#img404logo{
+	position: absolute;
+	width: 28%;
+	margin-top: -400px;
+	margin-left: 230px;
+	border-radius: 20px;
+}
+
+#img404logo2 {
+	position: absolute;
+	width: 28%;
+	margin-top: -120px;
+	margin-left: 230px;
+	border-radius: 20px;
+}
+
+
+/* -------------------------- FIN SPECIFICITES DE LA PAGE 404 C ------------------------- */
+
